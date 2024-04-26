@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-right:400px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: italic;
+    color: darkred;
+    background-color: rgb(234, 217, 191);
+}
+
+
+h1 {
+    font-family:Snell Roundhand, cursive;
+    text-align: center;
+    font-size: 90px;
+}
+
+h1 a {
+    color: red;
+    text-decoration: none;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 28px;
+    color: darkred;
+    margin-left: 100px;
+    margin-right:100px;
+}
+
+
+.meal-item {
+    border: 2px solid #e6e8d5;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f7ed;
+    box-shadow: 0 2px 5px rgb(169, 127, 127);
+}
+
+.meal-item h3 {
+    font-family:Snell Roundhand, cursive;
+    color:rgb(172, 0, 0);
+    font-size: 48px;
+    margin-left:30px;
+}
+
+.meal-item img {
+    width: 60%;
+    height: auto;
+    border-radius: 20px;
+    margin-left:40px;
+    box-shadow: 0 2px 5px rgb(197, 189, 163,10);
+}
+
+.meal-item p {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left:30px;
+}
+
+
+button {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:darkred;
+    color: rgb(234, 217, 191);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(234, 217, 191);
+    color: darkred;
+ 
+}
+
+input[type="text"] {
+    font-size: 38px;
+    font-family:Snell Roundhand, cursive;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid darkred;
+    background-color: rgb(240, 235, 227);
+    width: 40px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: darkred;
+}
+
+input[type="text"]:focus{
+    outline: none;
+    background-color: rgb(240, 235, 227);
+}
